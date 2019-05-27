@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 不推荐的类或者写法
  */
-@Target(ElementType.ANNOTATION_TYPE)
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.SOURCE)
 public @interface NotRecommand {
 }

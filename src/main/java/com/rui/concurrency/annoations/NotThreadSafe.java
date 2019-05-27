@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 标记线程不安全的类
  */
-@Target(ElementType.ANNOTATION_TYPE)
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.SOURCE)
 public @interface NotThreadSafe {
     String value() default "";

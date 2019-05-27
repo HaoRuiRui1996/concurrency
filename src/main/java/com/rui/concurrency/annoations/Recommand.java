@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 推荐类或者写法
  */
-@Target(ElementType.ANNOTATION_TYPE)
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.SOURCE)
 public @interface Recommand {
 }
